@@ -1,8 +1,8 @@
 # ttable
-More flexible approach to tables and tabulation in R (currently embryonic)
+More flexible, but embryonic and unusable, approach to tables and tabulation in R
 
 The key aim here is a dataframe based tabulation package.
-R has many excellent tools for tables, most of which produce lists or arrays of various types. Their goal is to produce something taht can be printed, to provide a quick summary of a dataframe.
+R has many excellent tools for tables, most of which produce lists or arrays of various types. Their goal is to produce something that can be printed, to provide a quick summary of a dataframe.
 There seem to be three common use cases for tables in data analysis 
 * Cross-tabulation, counts by factor levels. The key function is table, but xtab, and ftab, both in base R, have similar functions.
 * table(diamonds$cut)
